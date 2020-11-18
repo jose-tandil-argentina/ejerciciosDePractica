@@ -10,8 +10,10 @@ function EventClick() {
     }
 }
 
-let btn = document.getElementById("btn");
+btn.addEventListener("click", EventClick;
 
+
+/*
 btn.addEventListener('click', function(e){
   let t_bomba =  document.getElementById("inputBomba").value;
   alert("Corra en 5 segundos se activará la Bomba");

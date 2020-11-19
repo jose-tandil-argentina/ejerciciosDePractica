@@ -1,16 +1,24 @@
-let btn = document.getElementById("btn");
+"use strict";
 
-function EventClick() {
-  if()
-    {
-        "type"; "success"; "value"; {
-            "id"; 175, "joke"; "When Chuck Norris was a baby, he didn't suck his mother's breast. His mother served him whiskey, straight out of the bottle.";
-             "categories"; []
-        }
-    }
+/*let btn = document.getElementById("btn");
+*/
+
+
+let contador = 0;
+
+function showAlert() {
+    var myText = "This can be whatever text you like!";
+    alert(myText);
 }
 
-btn.addEventListener("click", EventClick;
+function showAlert() {
+    alert("Lo que quiero que salga");
+}
+
+
+
+/*
+btn.addEventListener("click", EventClick);
 
 
 /*
@@ -18,7 +26,7 @@ btn.addEventListener('click', function(e){
   let t_bomba =  document.getElementById("inputBomba").value;
   alert("Corra en 5 segundos se activará la Bomba");
   setTimeout(function(){
-  cuentaRegre(t_bomba); }, 5000); // llamado diferido  
+  cuentaRegre(t_bomba); }, 5000); // llamado diferido
 });
 
 function cuentaRegre(i) {
@@ -33,10 +41,6 @@ function cuentaRegre(i) {
         }
     }, 1000);
 }
+*/
 
 
-
-
-
-
-  

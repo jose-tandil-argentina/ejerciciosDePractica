@@ -2,10 +2,11 @@ section{
     text-align: center;
     color:blue;
 } 
-     #navbarSupportedContent{
-       text-align: center;
-        color: seagreen;
-    }
+   
+#navbarSupportedContent{
+    text-align: center;
+    color: seagreen; 
+}
 
 
 .section{

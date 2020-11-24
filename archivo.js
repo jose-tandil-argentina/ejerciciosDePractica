@@ -6,14 +6,40 @@
 
 let contador = 0;
 
-function showAlert() {
-    var myText = "This can be whatever text you like!";
-    alert(myText);
-}
+
+
 
 function showAlert() {
-    alert("Lo que quiero que salga");
-}
+
+    fetch("http://api.icndb.com/jokes/random", {
+
+
+        /*
+        method: "GET",
+        headers:{
+            "Content-Type": "application/json",
+            "dasdasd":"dasdasd",
+            
+        },
+        body: JSON.stringify({
+            name: "tata",
+            age: 28,
+        })
+        .then((reponse)=>{
+            debugger
+        })
+        */
+
+    })
+        
+    .then(response => response.text())
+    .then(data =>{
+        debugger    
+    })
+       /*
+        .then((response) => {
+            debugger
+        })
 
 
 

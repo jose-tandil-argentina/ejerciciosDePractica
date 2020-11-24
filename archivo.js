@@ -32,7 +32,7 @@ function showAlert() {
 
     })
         
-    .then(response => response.text())
+    .then(response => response.json())
     .then(data =>{
         debugger    
     })

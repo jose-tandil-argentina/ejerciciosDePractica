@@ -1,5 +1,27 @@
 "use strict";
 
+
+
+
+function showAlert() {
+
+    fetch("://api.icndb.com/jokehttps/index.html", {
+    })
+    .then(response => response.json())
+    .catch(error  => console.error(error));
+
+}
+
+function showAviso() {
+
+}
+
+
+
+
+
+
+
 /*let btn = document.getElementById("btn");
 */
 
@@ -20,20 +42,11 @@
         })
         
         */
-let contador = 0;
 
 
 
 
-function showAlert() {
 
-    fetch("://api.icndb.com/jokehttps/info.json", {
-    
-    })
-
-    
-    .then(response => response.json())
-    .catch(error  => console.error(error));
     /*
     .then(data => {
         alert(data.value.joke)    
@@ -84,5 +97,3 @@ function cuentaRegre(i) {
  }, 1000);
 }
 */
-
-}
